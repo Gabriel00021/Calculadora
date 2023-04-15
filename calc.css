@@ -1,0 +1,37 @@
+#numero1{
+    height: 18px;
+    width: 300px;
+    border-radius: 8px;
+    border-style: groove;
+}
+
+#numero2{
+    height: 18px;
+    width: 300px;
+    border-radius: 8px;
+    border-style: groove;
+}
+
+#operacoes{
+    width: 100px;
+    height: 25px;
+    border-radius: 30px;
+    font-family: 'Chivo Mono', monospace;
+}
+
+#result{
+    height: 44px;
+    border-radius: 15px;
+    margin-left: 86px;
+    border-color:rgb(16, 179, 16);
+    background: linear-gradient(90deg, #8bff30 20%, #23dfca 100%);
+    font-family: 'Chivo Mono', monospace;
+}
+
+.texto{
+    font-family: 'Chivo Mono', monospace;
+}
+
+.numeros{
+    font-family: 'Chivo Mono', monospace;
+}

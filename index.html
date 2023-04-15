@@ -5,18 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,600&display=swap');
+    </style>
     <link rel="stylesheet" href="calc.css">
 </head>
 <body>
 
-    <h1>Calculadora em Java Escript</h1>
-    <p>Digite o primeiro Número</p> 
-
+    <div class="texto">
+        <h1>Calculadora em Java Escript</h1>
+        <p>Digite o primeiro Número</p> 
+    </div>
     
-        <input type="number" id="numero1">
-        <p>Digite o segundo Número</p>
-        <input type="number" id="numero2">
-        <p>Selecione uma Operação</p>  
+        <div class="numeros">
+         <input type="number" id="numero1">
+         <p>Digite o segundo Número</p>
+         <input type="number" id="numero2">
+         <p>Selecione uma Operação</p>  
+        </div>
 
         <select id="operacoes">
             <option value="+">Adição</option>
@@ -25,7 +31,7 @@
             <option value="*">Multiplicação</option>
         </select>
 
-        <button onclick="calcular()">Calcular</button>
+        <button id="result" onclick="calcular()">Calcular</button>
         <p id="resultado"></p>
    
     <script src="script.js"></script>
